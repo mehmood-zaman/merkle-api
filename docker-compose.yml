@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  merkle-backend:
+    environment:
+      - NODE_ENV=development
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    container_name: merkle-backend
+    expose:
+      - '4000'
+    ports:
+      - '4000:4000'
+    command: npm run dev
+    networks:
+      - shared-network
+    restart: on-failure
+  adminer:
+    image: adminer
+    container_name: adminer-docker
+    ports:
+      - '8080:8080'
+    networks:
+      - shared-network
+    restart: on-failure
+
+networks:
+  shared-network:
