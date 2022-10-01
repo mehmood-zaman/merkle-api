@@ -23,6 +23,9 @@ For database I have used redislab cloud platform.
 ### Postman collection
 https://www.getpostman.com/collections/3f6390ef98d6427f4d54
 
+### Swagger API Documentation
+https://merkle-bk-api.herokuapp.com/api-docs/
+
 ### Running Application Locally
 
 change into the project root directory by running the "cd" command at your terminal
