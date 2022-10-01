@@ -14,7 +14,7 @@
 
 ### Deployment
 
-For frontend React.js web application deployment i have used the firebase.
+For backend API deployment i have used the firebase.
 [Merkle Api](https://merkle-bk-api.herokuapp.com/).
 
 ### Running Application Locally
