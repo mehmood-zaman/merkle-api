@@ -14,7 +14,7 @@
 
 ### Deployment
 
-For backend API deployment i have used the Heroku.
+For backend API deployment i have used the Heroku. Here is the production link of API.
 [Merkle Api](https://merkle-bk-api.herokuapp.com/).
 
 ### Database
