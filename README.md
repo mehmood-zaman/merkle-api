@@ -14,8 +14,11 @@
 
 ### Deployment
 
-For backend API deployment i have used the firebase.
+For backend API deployment i have used the Heroku.
 [Merkle Api](https://merkle-bk-api.herokuapp.com/).
+
+### Database
+For database I have use redislab cloud platform.
 
 ### Running Application Locally
 
