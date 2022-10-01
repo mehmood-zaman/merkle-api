@@ -20,6 +20,9 @@ For backend API deployment i have used the Heroku.
 ### Database
 For database I have used redislab cloud platform.
 
+### Postman collection
+https://www.getpostman.com/collections/3f6390ef98d6427f4d54
+
 ### Running Application Locally
 
 change into the project root directory by running the "cd" command at your terminal
