@@ -8,15 +8,15 @@ const router = express.Router();
 const moviesController = Container.get(ItemsController);
 
 //Add new item
-router.post('/', moviesController.addNewItem);
+router.post('/', authenticated, moviesController.addNewItem);
 
 //Get an item
-router.get('/:id', moviesController.getAnItem);
+router.get('/:id', authenticated, moviesController.getAnItem);
 
 //Update an item
-router.put('/:id', moviesController.updateAnItem);
+router.put('/:id', authenticated, moviesController.updateAnItem);
 
 //Delete an item
-router.delete('/:id', moviesController.deleteAnItem);
+router.delete('/:id', authenticated, moviesController.deleteAnItem);
 
 export default router;
