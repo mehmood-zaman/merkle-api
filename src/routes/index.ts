@@ -1,6 +1,6 @@
 import express from 'express';
 import authRoute from './AuthRoute';
-import moviesRoute from './MoviesRoutes';
+import itemsRoute from './ItemsRoutes';
 
 const router = express.Router();
 
@@ -10,8 +10,8 @@ const allRoutes = [
     route: authRoute,
   },
   {
-    path: '/movies',
-    route: moviesRoute,
+    path: '/item',
+    route: itemsRoute,
   },
 ];
 
